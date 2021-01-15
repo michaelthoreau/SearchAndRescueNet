@@ -1,7 +1,7 @@
 # Satellite Imagery for Search And Rescue Dataset
 
-## Placeholder instructions.
+## Getting hold of the Data
 
 ```
-Do the thing
+All the data is available in an s3 bucket, please email me: michael@thoreau.com.au
 ```
