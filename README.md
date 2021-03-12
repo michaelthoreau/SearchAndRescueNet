@@ -2,6 +2,15 @@
 
 ## Getting hold of the Data
 
+Download the data here: [paraglider_dataset.zip](https://michaeltpublic.s3.amazonaws.com/paraglider_dataset.zip)
+
+---
+
+Or follow these steps
 ```
-All the data is available in an s3 bucket, please email me: michael@thoreau.com.au
+# download the dataset
+wget https://michaeltpublic.s3.amazonaws.com/paraglider_dataset.zip
+
+# extract the files
+unzip paraglider_dataset.zip
 ```
