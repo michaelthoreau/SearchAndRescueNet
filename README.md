@@ -21,7 +21,7 @@ Download the data here: [sarnet.zip](https://michaeltpublic.s3.amazonaws.com/sar
 ---
 
 Or follow these steps
-```
+```shell
 # download the dataset
 wget https://michaeltpublic.s3.amazonaws.com/sarnet.zip
 
