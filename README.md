@@ -30,6 +30,14 @@ wget https://michaeltpublic.s3.amazonaws.com/sarnet.zip
 unzip sarnet.zip
 ```
 
+## Getting started
+Get started with a Faster R-CNN model pretrained on SaRNet: [SaRNet_Demo.ipynb](https://github.com/michaelthoreau/SearchAndRescueNet/blob/master/SaRNet_Demo.ipynb)
+
+
+## Source Code for Paper
+Source code for the paper is located here: [SaRNet_train_test.ipynb](https://github.com/michaelthoreau/SearchAndRescueNet/blob/master/SaRNet_train_test.ipynb)
+
+
 ## Cite this dataset
 ```
 @misc{thoreau2021sarnet,
