@@ -16,15 +16,27 @@ This is a single class dataset (+ background), where the class is 'target'. Labe
 
 ## Getting hold of the Data
 
-Download the data here: [paraglider_dataset.zip](https://michaeltpublic.s3.amazonaws.com/paraglider_dataset.zip)
+Download the data here: [sarnet.zip](https://michaeltpublic.s3.amazonaws.com/sarnet.zip)
 
 ---
 
 Or follow these steps
 ```
 # download the dataset
-wget https://michaeltpublic.s3.amazonaws.com/paraglider_dataset.zip
+wget https://michaeltpublic.s3.amazonaws.com/sarnet.zip
 
 # extract the files
-unzip paraglider_dataset.zip
+unzip sarnet.zip
+```
+
+## Cite this dataset
+```
+@misc{thoreau2021sarnet,
+      title={SaRNet: A Dataset for Deep Learning Assisted Search and Rescue with Satellite Imagery}, 
+      author={Michael Thoreau and Frazer Wilson},
+      year={2021},
+      eprint={2107.12469},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
 ```
