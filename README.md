@@ -1,11 +1,9 @@
-# Satellite Imagery for Search And Rescue Dataset
-[ArXiv Link](https://arxiv.org/pdf/2107.12469.pdf)
+# Satellite Imagery for Search And Rescue Dataset - [ArXiv](https://arxiv.org/pdf/2107.12469.pdf)
 
-
-
-This is a single class dataset (+ background), where the class is 'target'. Labelers were instructed to draw boxes around anything they suspect may be the missing paraglider. The paraglider wing was found, and is provided as an example below. The data is in the [COCO format](https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch), and is directly compatible with faster r-cnn as implemented in Facebook's [Detectron2](https://github.com/facebookresearch/detectron2).
+This is a single class dataset consisting of tiles of satellite imagery labeled with potential 'targets'. Labelers were instructed to draw boxes around anything they suspect may a paraglider wing, missing in a remote area of Nevada. Volunteers were shown examples of similar objects already in the environment for comparison. The missing wing, as it was found after 3 weeks, is shown below.
 
 ![anomaly](https://michaeltpublic.s3.amazonaws.com/images/anomaly_small.jpg)
+
 
 The dataset contains the following:
 
@@ -16,7 +14,7 @@ The dataset contains the following:
 | Test          | 254         | 411         |
 | Total         | 2552        |4206         |
 
-
+The data is in the [COCO format](https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch), and is directly compatible with faster r-cnn as implemented in Facebook's [Detectron2](https://github.com/facebookresearch/detectron2).
 
 ## Getting hold of the Data
 
