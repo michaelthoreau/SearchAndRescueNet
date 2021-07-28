@@ -18,9 +18,8 @@ This is a single class dataset (+ background), where the class is 'target'. Labe
 
 Download the data here: [sarnet.zip](https://michaeltpublic.s3.amazonaws.com/sarnet.zip)
 
----
-
 Or follow these steps
+
 ```shell
 # download the dataset
 wget https://michaeltpublic.s3.amazonaws.com/sarnet.zip
@@ -40,3 +39,6 @@ unzip sarnet.zip
       primaryClass={eess.IV}
 }
 ```
+
+## Acknowledgment
+The source data was generously provided by Planet Labs, Airbus Defence and Space, and Maxar Technologies.
